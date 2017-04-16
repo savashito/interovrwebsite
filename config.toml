@@ -6,7 +6,7 @@ defaultContentLanguage = "en"
 enableRobotsTXT = true
 disableRSS = true
 
-publishDir = "docs"
+publishDir = "../testGithub/savashito.github.io"
 
 [params]
   title = "Dimension"

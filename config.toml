@@ -1,6 +1,6 @@
 baseurl = "http://example.org"
 title = "Dimension"
-theme = "dimension"
+theme = "interodimension"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 enableRobotsTXT = true

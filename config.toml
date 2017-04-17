@@ -6,11 +6,7 @@ defaultContentLanguage = "en"
 enableRobotsTXT = true
 disableRSS = true
 
-<<<<<<< HEAD
 publishDir = "docs"
-=======
-publishDir = "./static"
->>>>>>> 9d3f2c75e39386ef439cf6b167ff4603bc6413b4
 
 [params]
   title = "Dimension"

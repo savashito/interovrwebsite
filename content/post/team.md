@@ -5,6 +5,7 @@ title = "Team"
 
 +++
 
-Rodrigo Savage
-Rebecca Rogers
-Meow
+**Rodrigo Savage** is a PhD candidate at the University of Arizona. He is a former collegiate rower and triathlete. 
+<br>
+
+**Rebecca Rogers** is an undergraduate at the University of Arizona studying Neuroscience and music. She is a former DIII and DI athlete and triathlete.

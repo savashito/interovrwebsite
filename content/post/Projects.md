@@ -10,6 +10,7 @@ weight = 0
 <br>
 We have introduced the first VR headset designed specifically for athletes. It is form-fitting, ventilated, lightweight, has a larger field of view, and looks cool.
 <br>
+
 <img  class="image" WIDTH="100%" SRC="InteroHedset2.png"/>
 
 **Intero VRow**
@@ -25,6 +26,7 @@ Intero VRow enhances rower experience through a virtual environment where you ca
   Your browser does not support HTML5 video.
 </video>
 
+<br>
 **Intero Memory**
 <br>
 Intero Memory is an app in early development which will allow the user to associate episodic memories with songs and to then store these assoications. We plan to use Google Street View Image API to incorporate 360-degree environments which can be viewed in virtual reality. We are in the process of making binaural recordings to enhance the sensation of being in these environments. This app can be used to strengthen memories in the case of Alzheimers/Dementia or other forms of memory loss.

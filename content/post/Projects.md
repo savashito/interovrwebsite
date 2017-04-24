@@ -31,7 +31,6 @@ Intero VRow enhances rower experience through a virtual environment where you ca
 <br>
 Intero Memory is an app in early development which will allow the user to associate episodic memories with songs and to then store these assoications. We plan to use Google Street View Image API to incorporate 360-degree environments which can be viewed in virtual reality. We are in the process of making binaural recordings to enhance the sensation of being in these environments. This app can be used to strengthen memories in the case of Alzheimers/Dementia or other forms of memory loss.
 <br>
-<p style="font-family: verdana;font-size: 12px;color: #333333;text-decoration: none;" ><a alt="Map IP Address" href="http://www.ip2map.com"><img border="0" alt="Map IP Address" src="http://www.ip2map.com/ip2map.gif"></a><br>Powered by<a alt="IP Address" href="http://www.ip2location.com" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 12px;color: #0066CC;text-decoration: underline;">IP2Location.com</a></p>
 
 
 

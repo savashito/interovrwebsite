@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agency</title>
+    <link>https://example.org/</link>
+    <description>Recent content on Agency</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Apr 2018 13:38:23 -0700</lastBuildDate>
+    
+	<atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://example.org/post/about/</link>
+      <pubDate>Sat, 14 Apr 2018 13:38:23 -0700</pubDate>
+      
+      <guid>https://example.org/post/about/</guid>
+      <description>Intero VR&amp;nbsp; helps athletes achieve their potential by reducing stress, fear, and anxiety through visualization. Our VR training apps connect people in order to create a sense of community and support. We have introduced the first headset designed specifically for athletes. It is form-fitting, ventilated, lightweight, and has a larger field of view. This headset can be used with athletic training machines as well as for personal visualization without a machine.</description>
+    </item>
+    
+    <item>
+      <title>App</title>
+      <link>https://example.org/post/app/</link>
+      <pubDate>Sat, 27 May 2017 15:08:59 -0500</pubDate>
+      
+      <guid>https://example.org/post/app/</guid>
+      <description>Intero VRow Intero VRow enhances rower experience through a virtual environment where you can connect with other rowers, train together, and challenge each other. VRow is expected to reach the app store in Winter 2017.   -- -- 
+Specifications: &amp;nbsp;• Real rowing physics &amp;nbsp;• Connect with friends and opponents online &amp;nbsp;• Save and analyze stats &amp;nbsp;• Chose your rowing terrain &amp;nbsp;• Improve your form </description>
+    </item>
+    
+    <item>
+      <title>Headset</title>
+      <link>https://example.org/post/headset/</link>
+      <pubDate>Sat, 27 May 2017 15:08:21 -0500</pubDate>
+      
+      <guid>https://example.org/post/headset/</guid>
+      <description>Athletic Virtual Reality Headset We have introduced the first VR headset designed specifically for athletes. It is form-fitting, ventilated, lightweight, and has a larger field of view. The headset is expected to reach the market in Winter 2017. </description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://example.org/post/projects/</link>
+      <pubDate>Sat, 15 Apr 2017 17:40:57 -0700</pubDate>
+      
+      <guid>https://example.org/post/projects/</guid>
+      <description>Intero Memory Intero Memory is an app in early development which will allow the user to associate episodic memories with songs and to then store these assoications. We plan to use Google Street View Image API to incorporate 360-degree environments which can be viewed in virtual reality. We are in the process of making binaural recordings to enhance the sensation of being in these environments. This app can be used to strengthen memories in the case of Alzheimers/Dementia or other forms of memory loss.</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://example.org/post/research/</link>
+      <pubDate>Fri, 14 Apr 2017 13:33:28 -0700</pubDate>
+      
+      <guid>https://example.org/post/research/</guid>
+      <description>Current research/news in Virtual Reality:  Neural Network Underlying Intermanual Skill Transfer in Humans
+
+Phantom motor execution facilitated by machine learning and augmented reality as treatment for phantom limb pain: a single group, clinical trial in patients with chronic intractable phantom limb pain  Sensorimotor body-environment interaction serves to regulate emotional experience and exploratory behavior   A Preliminary Study on the Feasibility of Using a Virtual Reality Cognitive Training Application for Remote Detection of Mild Cognitive Impairment.</description>
+    </item>
+    
+  </channel>
+</rss>

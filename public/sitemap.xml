@@ -2,49 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://example.org/post/about/</loc>
+    <loc>/post/about/</loc>
     <lastmod>2018-04-14T13:38:23-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/post/app/</loc>
+    <loc>/post/app/</loc>
     <lastmod>2017-05-27T15:08:59-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/post/headset/</loc>
+    <loc>/post/headset/</loc>
     <lastmod>2017-05-27T15:08:21-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/post/projects/</loc>
+    <loc>/post/projects/</loc>
     <lastmod>2017-04-15T17:40:57-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/post/research/</loc>
+    <loc>/post/research/</loc>
     <lastmod>2017-04-14T13:33:28-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/</loc>
+    <loc>/</loc>
     <lastmod>2018-04-14T13:38:23-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/post/</loc>
+    <loc>/post/</loc>
     <lastmod>2018-04-14T13:38:23-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/tags/</loc>
+    <loc>/tags/</loc>
     <priority>0</priority>
   </url>
   

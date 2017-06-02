@@ -1,42 +1,331 @@
-baseurl = "http://example.org"
-title = "Dimension"
-theme = "interodimension"
+# Site settings
+baseurl = "https://example.org/"
 languageCode = "en-us"
-defaultContentLanguage = "en"
-enableRobotsTXT = true
-disableRSS = true
+title = "Agency"
+theme = "hugo-agency-theme"
 
-publishDir = "docs"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
 
 [params]
-  title = "Dimension"
-  description = 'Enhancing athletic performance through Virtual Reality'
-  logo = "fa-diamond"
-  
+  # You can use Markdown syntax for urls [text](//url.to/source) or
+  # most longer texts.
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
 
-[[params.social]]
-  medium = "twitter"
-  icon = "twitter"
-  link = "#"
+  # To provide some metadata for search engines feel free to add a few
+  # information about you and your website.
+  name = "Your name"
+  description = "Your description"
 
-[[params.social]]
-  medium = "facebook"
-  icon = "facebook"
-  link = "#"
+  # Link custom assets relative to /static
+  custom_css = []
+  custom_js  = []
+  favicon    = "favicon.ico"
 
-[[params.social]]
-  medium = "instagram"
-  icon = "instagram"
-  link = "#"
+  # Possibility to disable external/additional fonts
+  # Exception: Fontawesome
+  disableFonts = false
 
-[[params.social]]
-  medium = "github"
-  icon = "github"
-  link = "#"
+  # 404 error customization
+  [params.error404]
+    heading = "Page couldn't be found"
+    text = "Please visit [this page](/)"
 
-[languages]
-[languages.en]
-languageName = "English"
-weight = 1
-title = "Intero VR"
+  # Optional piwik tracking
+  #[params.analytics.piwik]
+  #  URL = "https://stats.example.com"
+  #  ID = "42"
+  #  # Track all subdomains with "*.example.com"
+  #  domain = "www.example.com"
+  #  # Optional integrity check hash
+  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
+
+  # Navigation
+  [params.navigation]
+    brand = "Virtual Reality"
+    # Optional logo as brand stored in img/
+    #logo = "logo.svg"
+    services = "Accessories"
+    about = "About"
+    team = "Team"
+    portfolio = "Photos"
+    contact = "Contact"
+
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # prepended links
+    #[[menu.prepend]]
+    #  url = "http://gohugo.io"
+    #  name = "Hugo"
+    #  weight = 10
+
+    # postpended links
+
+
+
+  # Hero section
+  [params.hero]
+    # To change the background image of the hero, replace 'header.jpg' in
+    # the 'static/img' folder.
+    title = "Intero"
+    subtitle = "Enhancing Athletic Performance"
+    buttonText = "Tell me more"
+
+
+  # Services section
+  [params.services]
+    enable = true
+    title = "Accessories"
+    subtitle = "Coming in Winter, 2017"
+
+    [[params.services.row]]
+
+    [[params.services.row.list]]
+      icon = "fa-user"
+      title = "Athetic VR Headset"
+      description = "Introducing the first VR headset designed specifically for athletes. It is form-fitting, ventilated, lightweight, and has a larger field of view.<br><br> **Specifications:** <br> &nbsp;• One size fits all phones<br> &nbsp;• Comfortable strap <br> &nbsp;• Breathable material<br>&nbsp;• Fog-resistant <br>"
+      url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-mobile"
+      title = "Rowing App"
+      description = "Intero VRow enhances rower experience through a virtual environment where you can connect with other rowers, train together, and challenge each other. <br><br> **Specifications:** <br> &nbsp;• Accurate rowing physics<br> &nbsp;• Connect with friends/opponents online <br> &nbsp;• Save and analyze stats<br>&nbsp;• Chose your rowing terrain<br>&nbsp;• Improve your form<br>"
+
+
+    [[params.services.row.list]]
+      icon = "fa-laptop"
+      title = "Compatability Unit"
+      description = "Older athletic machines do not always have bluetooth capabilities. To sync your machine and the training app, you'll need a compatability unit! <br><br> **Specifications:** <br> &nbsp;• Uses machine USB<br> &nbsp;• Made with Raspberry Pi for Bluetooth <br> &nbsp;• Needed for ergs: PM3 & PM4"
+      url = "#"
+
+    # About section
+  [params.about]
+    enable = true
+    title = "About"
+    subtitle = "Our progress throughout 2017"
+    endpoint = "Be part<br>of our<br>story!"
+
+    # The events will be listed from the top to the bottom.
+    # All images are stored under 'static/img/about'.
+    # Replace them with your own.
+    [[params.about.events]]
+      img = "1.jpg"
+      date = "January"
+      title = "AZ Hackathon"
+      description = "Intero partipated in the AZ Hackathon, where we developed the first prototype for our smartphone rowing app. We met amazing developers and mentors who continue to help us today."
+
+    [[params.about.events]]
+      img = "2.jpg"
+      date = "February"
+      title = "Startup Weekend"
+      description = "We took our app to AZ Startup Weekend, sponsored by Google, where we presented our first pitch. Feedback helped us realize that we needed to develop an athletic VR headset. This was the begining of our headset development!"
+
+    [[params.about.events]]
+      img = "3.jpg"
+      date = "March-April"
+      title = "Innovate UA Accelerator"
+      description = "We spent 6 weeks in the Innovate UA Accelerator, where we conducted interviews and perfected our business model and pitch. We are semi-finalsts in the accelerator."
+
+    [[params.about.events]]
+      img = "4.jpg"
+      date = "Summer '17"
+      title = "Mexico City"
+      description = "Intero has spent the past few weeks developing and researching in Mexico City. We demoed our app and headset to rowers at the Olimpiada National, who had a great time experimenting with our new form of training."
+
+
+  # Team section
+  [params.team]
+    enable = true
+    # Possibility to center items
+    #center = true
+    title = "Our amazing team"
+    subtitle = ""
+    description = "We'd like to give a shoutout to our mentor at Innovate UA, Justin Williams, as well as Anita Bell from the AZ Center for Innovation. Major props to Omar Karim from UNAM for his app development help. Our avatar modeling would not have been possible without the amazing professional rower, Alan Amenta, and the animation from Brenda Esquivel! Finally, we'd like to thank Beatrice Cahill-Camden for her wonderful asssitance with writing and editing."
+
+    # All team member's pictures are stored under 'static/img/team'.
+    # Replace them with your own too.
+    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+    [[params.team.members]]
+      img = "1.jpg"
+      name = "Rodrigo Savage"
+      position = "Lead Developer"
+      livesIn = "[Mexico City, Mexico](#some-maps-url)"
+      scope = [
+        "Headset & App development",
+        "Communications & Marketing",
+        "Case Study Designer"
+      ]
+      # For bio markdown and even multiline strings are available.
+      bio = """Rodrigo is working on his PhD in computer engineering. He can develop anything he sets his mind to."""
+      social = [
+        ["fa-instagram", "https://www.instagram.com/rodrigosavage"],
+        ["fa-facebook", "https://www.facebook.com/savashito"],
+        ["fa-linkedin", "https://www.linkedin.com/in/rodrigo-savage-09430a24/"]
+      ]
+
+    [[params.team.members]]
+      img = "2.jpg"
+      name = "Becca Rogers"
+      position = "Lead Designer"
+      livesIn = "[Tucson, Arizona](#some-maps-url)"
+      scope = [
+        "Headset & App Design",
+        "General Management",
+        "Research"
+      ]
+      # For bio markdown and even multiline strings are available.
+      bio = """Becca's background is in Neuroscience, Music, and Design. She's making sure our brain works well with VR!"""
+      social = [
+        ["fa-instagram", "https://www.instagram.com/bexrogers"],
+        ["fa-facebook", "https://www.facebook.com/Becca.Rogers1"],
+        ["fa-linkedin", "https://www.linkedin.com/in/rebecca-rogers-950051117/"]
+      ]
+
+    [[params.team.members]]
+      img = "3.jpg"
+      name = "Pavel Estrada"
+      position = "Mentor"
+      livesIn = "[Mexico City, Mexico](#some-maps-url)"
+      scope = [
+        "Rowing Coach Expert",
+        "Case Study Designer",
+        "Sub-director of Athletic Sports in Mexico"
+      ]
+      # For bio markdown and even multiline strings are available.
+      bio = """Pavel knows everything about athletics in Mexico. He's helping us make amazing connections and providing coaching expertise."""
+      social = [
+        ["fa-instagram", "https://www.instagram.com/estradapavel/?hl=en"],
+        ["fa-facebook", "https://www.facebook.com/pavel.estradalanda"],
+        ["fa-linkedin", "https://www.linkedin.com/in/pavel-estrada-74a42a7b/?ppe=1"]
+      ]
+
+  # Client section
+    [params.clients_list]
+      enable = false
+      # Possibility to center items
+      #center = true
+      # Optional client title specifying the involvement
+      #title = "Used and trusted by"
+
+      # All the clients' logos are stored under 'static/img/logos'.
+      # Replace them with your clients's logos.
+      # Suggestion: .svg in the size of 280px*80px looks good
+      [[params.clients]]
+        logo = "envato.jpg"
+        link = "#"
+
+      [[params.clients]]
+        logo = "designmodo.jpg"
+        link = "#"
+
+      [[params.clients]]
+        logo = "themeforest.jpg"
+        link = "#"
+
+      [[params.clients]]
+        logo = "creative-market.jpg"
+        link = "#"
+
+# Portfolio section
+  [params.portfolio]
+    enable = true
+    # All projects defined in their own files. You can find example projects
+    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+    # at the root of this Hugo site.
+    # For more informtion take a look at the README.
+    title = "Photos"
+    subtitle = "A glimpse into what we've been working on"
+
+    [params.portfolio.modal]
+      client = "Client"
+      date = "Date"
+      category = "Category"
+      buttonText = "Close project"
+
+  # Contact section
+  [params.contact]
+    enable = true
+    title = "Contact us"
+    subtitle  = "We'll get back to you as soon as possible!"
+    buttonText = "Send message"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+
+    # It is possible to substitute formspring with other providers
+    # as an example the mailout plugin from caddy.
+    # Provide the post URL for the form and depending on the provider
+    # add some custom JS script to finish the implementation.
+    # postURL = "https://example.com/mailout/"
+
+    email = "contact@interovr.com"
+
+    # Success and error message overwrite for async contact form
+    #thanks = "Thank you for awesomely contacting us."
+    #error = "Message could not be send. Please contact us at mail@example.com instead."
+
+    # 'warning' defines error messages for invalid inputs
+    [params.contact.form.name]
+      text = "Your Name *"
+      warning = "Please enter your name."
+
+    [params.contact.form.email]
+      text = "Your Email *"
+      warning = "Please enter your email address."
+
+    [params.contact.form.phone]
+      text = "Your Phone *"
+      warning = "Please enter your phone number."
+
+    [params.contact.form.message]
+      text = "Your Message *"
+      warning = "Please enter a message."
+
+      # Add optional form fields to identify contact forms
+      #[[params.contact.form.hidden]]
+      #  name = "someID"
+      #  value = "example.com"
+      #
+      #[[params.contact.form.hidden]]
+      # Special values for name such as "page" and "site" will be autofilled
+      #  name = "page"
+
+  # Footer section
+  [params.footer]
+    enable = false
+    copyright = "Published under the Apache License 2.0."
+
+    [[params.footer.social]]
+      icon = "fa-twitter"
+      link = "#"
+
+    [[params.footer.social]]
+      icon = "fa-facebook"
+      link = "#"
+
+    [[params.footer.social]]
+      icon = "fa-linkedin"
+      link = "#"
+
+    [[params.footer.quicklinks]]
+      text = "Privacy Policy"
+      link = "#"
+
+    [[params.footer.quicklinks]]
+      text = "Terms of Use"
+      link = "#"
 

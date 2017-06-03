@@ -1,5 +1,5 @@
 # Site settings
-baseurl = ""
+baseurl = "localhost"
 languageCode = "en-us"
 title = "Intero"
 theme = "hugo-agency-theme"

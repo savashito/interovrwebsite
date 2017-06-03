@@ -1,8 +1,8 @@
 # Site settings
-baseurl = ""
+baseurl = "https://example.org/"
 languageCode = "en-us"
-title = "Intero"
-theme = "intero-agency"
+title = "Agency"
+theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
@@ -45,13 +45,13 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "Virtual Reality"
+    brand = "The Agency"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
-    services = "Accessories"
+    services = "Services"
+    portfolio = "Portfolio"
     about = "About"
     team = "Team"
-    portfolio = "Photos"
     contact = "Contact"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -65,49 +65,69 @@ googleAnalytics = ""
     #  weight = 10
 
     # postpended links
-
+    [[menu.postpend]]
+      url = "http://gohugo.io"
+      name = "External link"
+      weight = 10
 
 
   # Hero section
   [params.hero]
-    # To change the background image of the hero, replace 'header.jpg' in
+    # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Intero"
-    subtitle = "Enhancing Athletic Performance"
+    title = "Welcome To Our Studio!"
+    subtitle = "It's nice to meet you"
     buttonText = "Tell me more"
 
 
   # Services section
   [params.services]
     enable = true
-    title = "Accessories"
-    subtitle = "Coming in Winter, 2017"
+    title = "Services"
+    subtitle = "Lorem ipsum dolor sit amet consectetur."
 
     [[params.services.row]]
 
     [[params.services.row.list]]
-      icon = "fa-user"
-      title = "Athetic VR Headset"
-      description = "Introducing the first VR headset designed specifically for athletes. It is form-fitting, ventilated, lightweight, and has a larger field of view.<br><br> **Specifications:** <br> &nbsp;• One size fits all phones<br> &nbsp;• Comfortable strap <br> &nbsp;• Breathable material<br>&nbsp;• Fog-resistant <br>"
+      icon = "fa-laptop"
+      title = "E-Commerce"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
-
-    [[params.services.row.list]]
-      icon = "fa-mobile"
-      title = "Rowing App"
-      description = "Intero VRow enhances rower experience through a virtual environment where you can connect with other rowers, train together, and challenge each other. <br><br> **Specifications:** <br> &nbsp;• Accurate rowing physics<br> &nbsp;• Connect with friends/opponents online <br> &nbsp;• Save and analyze stats<br>&nbsp;• Chose your rowing terrain<br>&nbsp;• Improve your form<br>"
-
 
     [[params.services.row.list]]
       icon = "fa-laptop"
-      title = "Compatability Unit"
-      description = "Older athletic machines do not always have bluetooth capabilities. To sync your machine and the training app, you'll need a compatability unit! <br><br> **Specifications:** <br> &nbsp;• Uses machine USB<br> &nbsp;• Made with Raspberry Pi for Bluetooth <br> &nbsp;• Needed for ergs: PM3 & PM4"
+      title = "Responsive Design"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-lock"
+      title = "Web"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      url = "#"
+
+  # Portfolio section
+  [params.portfolio]
+    enable = true
+    # All projects defined in their own files. You can find example projects
+    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+    # at the root of this Hugo site.
+    # For more informtion take a look at the README.
+    title = "Portfolio"
+    subtitle = "Lorem ipsum dolor sit amet consectetur."
+
+    [params.portfolio.modal]
+      client = "Client"
+      date = "Date"
+      category = "Category"
+      buttonText = "Close project"
+
 
     # About section
   [params.about]
     enable = true
     title = "About"
-    subtitle = "Our progress throughout 2017"
+    subtitle = "Lorem ipsum dolor sit amet consectetur."
     endpoint = "Be part<br>of our<br>story!"
 
     # The events will be listed from the top to the bottom.
@@ -115,27 +135,27 @@ googleAnalytics = ""
     # Replace them with your own.
     [[params.about.events]]
       img = "1.jpg"
-      date = "January"
-      title = "AZ Hackathon"
-      description = "Intero partipated in the AZ Hackathon, where we developed the first prototype for our smartphone rowing app. We met amazing developers and mentors who continue to help us today."
+      date = "2009-2011"
+      title = "Our Humble Beginnings"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
     [[params.about.events]]
       img = "2.jpg"
-      date = "February"
-      title = "Startup Weekend"
-      description = "We took our app to AZ Startup Weekend, sponsored by Google, where we presented our first pitch. Feedback helped us realize that we needed to develop an athletic VR headset. This was the begining of our headset development!"
+      date = "March 2011"
+      title = "An Agency is Born"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
     [[params.about.events]]
       img = "3.jpg"
-      date = "March-April"
-      title = "Innovate UA Accelerator"
-      description = "We spent 6 weeks in the Innovate UA Accelerator, where we conducted interviews and perfected our business model and pitch. We are semi-finalsts in the accelerator."
+      date = "December 2012"
+      title = "Our Humble Beginnings"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
     [[params.about.events]]
       img = "4.jpg"
-      date = "Summer '17"
-      title = "Mexico City"
-      description = "Intero has spent the past few weeks developing and researching in Mexico City. We demoed our app and headset to rowers at the Olimpiada National, who had a great time experimenting with our new form of training."
+      date = "July 2014"
+      title = "Phase Two Expansion"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
 
   # Team section
@@ -144,69 +164,55 @@ googleAnalytics = ""
     # Possibility to center items
     #center = true
     title = "Our amazing team"
-    subtitle = ""
-    description = "We'd like to give a shoutout to our mentor at Innovate UA, Justin Williams, as well as Anita Bell from the AZ Center for Innovation. Major props to Omar Karim from UNAM for his app development help. Our avatar modeling would not have been possible without the amazing professional rower, Alan Amenta, and the animation from Brenda Esquivel! Finally, we'd like to thank Beatrice Cahill-Camden for her wonderful asssitance with writing and editing."
+    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
       img = "1.jpg"
-      name = "Rodrigo Savage"
-      position = "Lead Developer"
-      livesIn = "[Mexico City, Mexico](#some-maps-url)"
+      name = "Kay Garland"
+      position = "Lead Designer"
+      reportsTo = "CTO"
+      livesIn = "[Munich, Germany](#some-maps-url)"
       scope = [
-        "Headset & App development",
-        "Communications & Marketing",
-        "Case Study Designer"
+        "UX for [member dashboard](#)",
+        "Maintainer for [awesome-project](#)",
+        "Open Source [community management](#)"
       ]
       # For bio markdown and even multiline strings are available.
-      bio = """Rodrigo is working on his PhD in computer engineering. He can develop anything he sets his mind to."""
+      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
+She worked at Pied Piper for years until they went belly up."""
       social = [
-        ["fa-instagram", "https://www.instagram.com/rodrigosavage"],
-        ["fa-facebook", "https://www.facebook.com/savashito"],
-        ["fa-linkedin", "https://www.linkedin.com/in/rodrigo-savage-09430a24/"]
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
       ]
 
     [[params.team.members]]
       img = "2.jpg"
-      name = "Becca Rogers"
-      position = "Lead Designer"
-      livesIn = "[Tucson, Arizona](#some-maps-url)"
-      scope = [
-        "Headset & App Design",
-        "General Management",
-        "Research"
-      ]
-      # For bio markdown and even multiline strings are available.
-      bio = """Becca's background is in Neuroscience, Music, and Design. She's making sure our brain works well with VR!"""
+      name = "Larry Parker"
+      position = "Lead Marketer"
       social = [
-        ["fa-instagram", "https://www.instagram.com/bexrogers"],
-        ["fa-facebook", "https://www.facebook.com/Becca.Rogers1"],
-        ["fa-linkedin", "https://www.linkedin.com/in/rebecca-rogers-950051117/"]
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
       ]
 
     [[params.team.members]]
       img = "3.jpg"
-      name = "Pavel Estrada"
-      position = "Mentor"
-      livesIn = "[Mexico City, Mexico](#some-maps-url)"
-      scope = [
-        "Rowing Coach Expert",
-        "Case Study Designer",
-        "Sub-director of Athletic Sports in Mexico"
-      ]
-      # For bio markdown and even multiline strings are available.
-      bio = """Pavel knows everything about athletics in Mexico. He's helping us make amazing connections and providing coaching expertise."""
+      name = "Diana Pertersen"
+      position = "Lead Developer"
       social = [
-        ["fa-instagram", "https://www.instagram.com/estradapavel/?hl=en"],
-        ["fa-facebook", "https://www.facebook.com/pavel.estradalanda"],
-        ["fa-linkedin", "https://www.linkedin.com/in/pavel-estrada-74a42a7b/?ppe=1"]
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
       ]
 
   # Client section
     [params.clients_list]
-      enable = false
+      enable = true
       # Possibility to center items
       #center = true
       # Optional client title specifying the involvement
@@ -231,27 +237,11 @@ googleAnalytics = ""
         logo = "creative-market.jpg"
         link = "#"
 
-# Portfolio section
-  [params.portfolio]
-    enable = true
-    # All projects defined in their own files. You can find example projects
-    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
-    # at the root of this Hugo site.
-    # For more informtion take a look at the README.
-    title = "Photos"
-    subtitle = "A glimpse into what we've been working on"
-
-    [params.portfolio.modal]
-      client = "Client"
-      date = "Date"
-      category = "Category"
-      buttonText = "Close project"
-
   # Contact section
   [params.contact]
     enable = true
     title = "Contact us"
-    subtitle  = "We'll get back to you as soon as possible!"
+    subtitle  = "Lorem ipsum dolor sit amet consectetur."
     buttonText = "Send message"
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -272,7 +262,7 @@ googleAnalytics = ""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "contact@interovr.com"
+    email = "your@email.com"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
@@ -306,7 +296,7 @@ googleAnalytics = ""
 
   # Footer section
   [params.footer]
-    enable = false
+    enable = true
     copyright = "Published under the Apache License 2.0."
 
     [[params.footer.social]]
@@ -328,4 +318,3 @@ googleAnalytics = ""
     [[params.footer.quicklinks]]
       text = "Terms of Use"
       link = "#"
-

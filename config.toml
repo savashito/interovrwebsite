@@ -65,7 +65,10 @@ googleAnalytics = ""
     #  weight = 10
 
     # postpended links
-
+    [[menu.postpend]]
+      url = "https://interovr.blogspot.com/"
+      name = "Research"
+      weight = 10
 
 
   # Hero section
@@ -88,7 +91,7 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-user"
       title = "Athetic VR Headset"
-      description = "Introducing the first VR headset designed specifically for athletes. It is form-fitting, ventilated, lightweight, and has a larger field of view.<br><br> **Specifications:** <br> &nbsp;• One size fits all phones<br> &nbsp;• Comfortable strap <br> &nbsp;• Breathable material<br>&nbsp;• Fog-resistant <br>"
+      description = "Introducing the first VR headset designed specifically for athletes: it is form-fitting, ventilated, lightweight, and has a larger field of view.<br><br> **Specifications:** <br> &nbsp;• One size fits all phones<br> &nbsp;• Comfortable strap <br> &nbsp;• Breathable material<br>&nbsp;• Fog-resistant <br>"
       url = "#"
 
     [[params.services.row.list]]

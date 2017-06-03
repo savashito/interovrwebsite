@@ -1,7 +1,7 @@
 # Site settings
 baseurl = ""
 languageCode = "en-us"
-title = "Agency"
+title = "Intero"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics

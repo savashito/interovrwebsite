@@ -2,49 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/post/about/</loc>
+    <loc>localhost/post/about/</loc>
     <lastmod>2018-04-14T13:38:23-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/app/</loc>
+    <loc>localhost/post/app/</loc>
     <lastmod>2017-05-27T15:08:59-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/headset/</loc>
+    <loc>localhost/post/headset/</loc>
     <lastmod>2017-05-27T15:08:21-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/projects/</loc>
+    <loc>localhost/post/projects/</loc>
     <lastmod>2017-04-15T17:40:57-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/research/</loc>
+    <loc>localhost/post/research/</loc>
     <lastmod>2017-04-14T13:33:28-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>localhost/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>localhost/</loc>
     <lastmod>2018-04-14T13:38:23-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>localhost/post/</loc>
     <lastmod>2018-04-14T13:38:23-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>localhost/tags/</loc>
     <priority>0</priority>
   </url>
   

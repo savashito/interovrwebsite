@@ -2,7 +2,7 @@
 baseurl = "localhost"
 languageCode = "en-us"
 title = "Intero"
-theme = "hugo-agency-theme"
+theme = "intero-agency"
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""

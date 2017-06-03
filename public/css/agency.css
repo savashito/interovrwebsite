@@ -176,7 +176,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #fff;
+    color: #000;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -297,16 +297,14 @@ header {
 }
 
 header .intro-text {
-    padding-top: 200px;
-    padding-bottom: 200px;
-    /*padding-top: 100px;*/
-    /*padding-bottom: 50px;*/
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: 'razedbold';
-    font-size: 70px;
+    font-size: 50px;
     font-style: ;
     line-height: 22px;
 }
@@ -323,7 +321,7 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 13px;
+    font-size: 10px;
     font-weight: 500;
     line-height: 50px;
 }
@@ -894,8 +892,9 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
+    font-style: italic;
 }
 
 .portfolio-modal .modal-content ul.list-inline {

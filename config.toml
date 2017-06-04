@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "localhost"
+baseurl = ""
 languageCode = "en-us"
 title = "Intero"
 theme = "intero-agency"

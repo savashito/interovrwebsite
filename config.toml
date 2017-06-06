@@ -148,7 +148,7 @@ googleAnalytics = ""
     #center = true
     title = "Our amazing team"
     subtitle = ""
-    description = "We'd like to give a shoutout to our mentor at Innovate UA, Justin Williams, as well as Anita Bell from the AZ Center for Innovation. Major props to Omar Karim from UNAM for his app development help. Our avatar modeling would not have been possible without the amazing professional rower, Alan Amenta, and the animation from Brenda Esquivel! Finally, we'd like to thank Beatrice Cahill-Camden for her wonderful asssitance with writing and editing."
+    description = "We'd like to give a shoutout to our mentor at Innovate UA, Justin Williams, as well as Anita Bell from the AZ Center for Innovation. Dan Janes from the McGuire Center for Entrepreneurship has been an incredible resource. We'd also like to thank Beatrice Cahill-Camden for her wonderful asssitance with writing and editing."
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
@@ -206,6 +206,38 @@ googleAnalytics = ""
         ["fa-facebook", "https://www.facebook.com/pavel.estradalanda"],
         ["fa-linkedin", "https://www.linkedin.com/in/pavel-estrada-74a42a7b/?ppe=1"]
       ]
+    [[params.team.members]]
+      img = "5.jpg"
+      name = "Omar Karim"
+      position = "Developer"
+      livesIn = "[Mexico City, Mexico](#some-maps-url)"
+      scope = [
+        "App development",
+      ]
+      # For bio markdown and even multiline strings are available.
+      bio = """Omar is pursuing his Masters in Science and Computer Engineering at UNAM."""
+
+    [[params.team.members]]
+      img = "6.jpg"
+      name = "Brenda Esquivel"
+      position = "Design & Animation"
+      livesIn = "[Mexico City, Mexico](#some-maps-url)"
+      scope = [
+        "Avatar design/modeling",
+      ]
+      bio = """Brenda is a CG artist and a director of Computing and Information/Communication Technologies in Mexico."""      
+
+
+    [[params.team.members]]
+      img = "4.jpg"
+      name = "Alan Armenta"
+      position = "Model/Marketing"
+      livesIn = "[Mexico City, Mexico](#some-maps-url)"
+      scope = [
+        "Avatar model",
+      ]
+      bio = """Alan is a professional rower and Pan-American Champion."""       
+
 
   # Client section
     [params.clients_list]

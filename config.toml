@@ -51,7 +51,7 @@ googleAnalytics = ""
     services = "Accessories"
     about = "About"
     team = "Team"
-    portfolio = "Photos"
+    portfolio = "ACCESSORIES"
     contact = "Contact"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -75,14 +75,14 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header.jpg' in
     # the 'static/img' folder.
-    title = "Intero"
+    title = "IIntero"
     subtitle = "Enhancing Athletic Performance"
     buttonText = "Tell me more"
 
 
   # Services section
   [params.services]
-    enable = true
+    enable = false
     title = "Accessories"
     subtitle = "Coming in Winter, 2017"
 
@@ -239,42 +239,16 @@ googleAnalytics = ""
       bio = """Alan is a professional rower and Pan-American Champion."""       
 
 
-  # Client section
-    [params.clients_list]
-      enable = false
-      # Possibility to center items
-      #center = true
-      # Optional client title specifying the involvement
-      #title = "Used and trusted by"
-
-      # All the clients' logos are stored under 'static/img/logos'.
-      # Replace them with your clients's logos.
-      # Suggestion: .svg in the size of 280px*80px looks good
-      [[params.clients]]
-        logo = "envato.jpg"
-        link = "#"
-
-      [[params.clients]]
-        logo = "designmodo.jpg"
-        link = "#"
-
-      [[params.clients]]
-        logo = "themeforest.jpg"
-        link = "#"
-
-      [[params.clients]]
-        logo = "creative-market.jpg"
-        link = "#"
-
 # Portfolio section
   [params.portfolio]
     enable = true
+    title = "Accessories"
+    subtitle = "Coming in Winter, 2017"
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Photos"
-    subtitle = "A glimpse into what we've been working on"
+  
 
     [params.portfolio.modal]
       client = "Client"

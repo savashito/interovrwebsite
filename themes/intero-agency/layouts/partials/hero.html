@@ -1,10 +1,56 @@
 {{ "<!-- Hero -->" | safeHTML }}
 <header>
+<script>
+function myFunction() {
+	console.log("Hello ",$("#email").val());
+	$.ajax({
+
+	    url: 'https://script.google.com/macros/s/AKfycbzUHaVqS_7gTUX1jnIARC1XwWy7D1PAQbZnAVRZ-_qH7lrowU_9/exec',
+	    data: {email:$("#email").val()},
+	    type: 'POST',
+	    crossDomain: true,
+	    dataType: 'jsonp',
+	    // success: function() { alert("Success"); },
+	    // error: function() { alert('Failed!'); }
+	    // beforeSend: setHeader
+	});
+
+	/*
+    $.post("https://script.google.com/macros/s/AKfycbxY1ptf9mUiiEDbwiPlVkIosgaY0kO5SaQ2v5FtaVym/dev",
+    {
+        email: "Donald Duck",
+        city: "Duckburg"
+    },
+    function(data, status){
+        alert("Data: " + data + "\nStatus: " + status);
+    });
+    */
+    // document.getElementById("demo").innerHTML = "Hello World";
+}
+</script>
   <div class="container">
     <div class="intro-text">
       <div class="intro-lead-in">{{ with .Site.Params.hero.title }}{{ . | markdownify }}{{ end }}</div>
       <div class="intro-heading">{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</div>
-      <a href="#portfolio" class="page-scroll btn btn-xl">{{ with .Site.Params.hero.buttonText }}{{ . }}{{ end }}</a>
+
+ <!--      <form action="/https://script.google.com/macros/s/AKfycbxY1ptf9mUiiEDbwiPlVkIosgaY0kO5SaQ2v5FtaVym/dev" method="get">
+  First name: <input type="text" name="email"><br>
+  Last name: <input type="text" name="name"><br>
+  <input type="submit" value="Submit">
+</form> -->
+<!--  <form action="https://script.google.com/macros/s/AKfycbxY1ptf9mUiiEDbwiPlVkIosgaY0kO5SaQ2v5FtaVym/dev" method="get"> -->
+	    <div class="col-lg-3"></div>
+	    <div class="col-lg-6">
+			<!-- <div class="checkbox"> -->
+	   		<input class="form-control" id="email" required="required"  name="email" placeholder="Enter your email" >
+			<br><br>
+			<!-- <input type="submit" value="Submit"> -->
+			<!-- "#portfolio"  -->
+			<a onclick="myFunction()" href="#portfolio" class="page-scroll btn btn-xl">Subscribe to VR rowing<br>beta</a>
+			<!-- <a href="#portfolio" class="page-scroll btn btn-xl">{{ with .Site.Params.hero.buttonText }}{{ . }}{{ end }}</a> -->
+		</div>
+	    <div class="col-lg-3"></div>
+	   <!-- </form> /https://script.google.com/macros/s/AKfycbxY1ptf9mUiiEDbwiPlVkIosgaY0kO5SaQ2v5FtaVym/dev?email=jojo" class="page-scroll btn btn-xl -->
     </div>
   </div>
 </header>

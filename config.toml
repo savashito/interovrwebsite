@@ -75,7 +75,7 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header.jpg' in
     # the 'static/img' folder.
-    title = "IIntero"
+    title = "IInteRo"
     subtitle = "Enhancing Athletic Performance"
     buttonText = "Subscribe to VR rowing\nbeta"
 

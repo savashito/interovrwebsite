@@ -17,6 +17,10 @@ body {
     color: #000;
 }
 
+.hide{
+    display: none;
+}
+
 p {
     font-size: 14px;
     line-height: 1.75;

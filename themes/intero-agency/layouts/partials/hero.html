@@ -1,8 +1,30 @@
 {{ "<!-- Hero -->" | safeHTML }}
 <header>
 <script>
+// $(function() {
+// 	$("#email").on('keyup', function (e) {
+// 	    if (e.keyCode == 13) {
+// 	        myFunction();
+// 	    }
+// 	});
+// });
+
 function myFunction() {
-	console.log("Hello ",$("#email").val());
+	var email = $("#email").val();
+	if(email){
+		$("#success").removeClass("hide");
+		$("#fail").addClass("hide");
+		$("#emailSuccess").html(email);
+
+		// hide
+		// alert("Successfuly register for the beta version "+email);	
+	}else{
+		$("#success").addClass("hide");
+		$("#fail").removeClass("hide");
+		// alert("Please type in your email to register for beta");	
+	}
+	console.log("Hello ",email);
+	
 	$.ajax({
 
 	    url: 'https://script.google.com/macros/s/AKfycbzUHaVqS_7gTUX1jnIARC1XwWy7D1PAQbZnAVRZ-_qH7lrowU_9/exec',
@@ -43,7 +65,15 @@ function myFunction() {
 	    <div class="col-lg-6">
 			<!-- <div class="checkbox"> -->
 	   		<input class="form-control text-center pagination-centered" id="email" required="required"  name="email" placeholder="Enter your email" style="" ><br><br>
-	   		<a onclick="myFunction()" href="#portfolio" class="page-scroll btn btn-xl">To Subscribe for<br>VR rowing  beta</a>
+	   		<a onclick="myFunction()"  class="page-scroll btn btn-xl">To Subscribe for<br>VR rowing  beta</a>
+	   		<br>
+	   		<br>
+	   		<div class="alert alert-success hide" id="success">
+  				<strong>Success!</strong> You registered <strong id="emailSuccess"></strong><br>Please scroll down for more information regarding the VR experience
+			</div>
+			<div class="alert alert-danger hide" id="fail">
+			  <strong>Error!</strong> Please type your email to subscribe to the beta version
+			</div>
 			<!-- <br><br> -->
 			<!-- <input type="submit" value="Submit"> -->
 			<!-- "#portfolio"  -->
@@ -53,5 +83,7 @@ function myFunction() {
 	    <div class="col-lg-3"></div>
 	   <!-- </form> /https://script.google.com/macros/s/AKfycbxY1ptf9mUiiEDbwiPlVkIosgaY0kO5SaQ2v5FtaVym/dev?email=jojo" class="page-scroll btn btn-xl -->
     </div>
+
+
   </div>
 </header>

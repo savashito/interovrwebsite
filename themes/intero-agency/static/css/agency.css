@@ -118,15 +118,18 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-xl {
-    padding: 20px 40px;
+    padding: 5px 20px;
     border-color: #000;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
-    color: #fff;
-    background-color: #000;
+    color: #000;
+    /*background-color: #000;*/
+    background-color: #FFF;
+    /*background-color: #071996;*/
+
 }
 
 .btn-xl:hover,
@@ -135,8 +138,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
     border-color: #e5dee6;
-    color: #fff;
-    background-color: #e3d9e2;
+    color: #000;
+     background-color: #777;
+    /*background-color: #e3d9e2;*/
 }
 
 .btn-xl:active,
@@ -769,9 +773,16 @@ section#contact .form-group input,
 section#contact .form-group textarea {
     padding: 20px;
 }
-
+/*
 section#contact .form-group input.form-control {
     height: auto;
+    width: 250px;
+}
+*/
+input.form-control {
+    height: auto;
+    width: 250px;
+    display: inline;
 }
 
 section#contact .form-group textarea.form-control {

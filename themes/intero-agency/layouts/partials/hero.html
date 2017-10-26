@@ -90,6 +90,14 @@ InteroPromo
 }
 </script>
 <div class="container">
+    <div class="intro-text">
+
+     <div class="intro-lead-in">{{ with .Site.Params.hero.title }}{{ . | markdownify }}{{ end }}</div>
+      <div class="intro-heading">{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</div>
+      <div class="intro-heading">{{ with .Site.Params.hero.subtitle2 }}{{ . | markdownify }}{{ end }}</div>
+      <!-- <div class="intro-heading">{{ with .Site.Params.hero.subtitle3 }}{{ . | markdownify }}{{ end }}</div> -->
+      <!-- <div class="intro-heading">{{ with .Site.Params.hero.subtitle4 }}{{ . | markdownify }}{{ end }}</div> -->
+  		</div>
   		<div class="fullscreen-bg">
 			<video playsinline loop muted autoplay poster="/videos/ImagePromo.jpg" width="720" height="480" class="fullscreen-bg__video">
 				<source src="http://interovr.com/videos/WebPromo.mp4" type="video/mp4">
@@ -97,6 +105,7 @@ InteroPromo
 				<source src="http://interovr.com/videos/WebPromo.webm" type="video/webm">
 			</video>
 		</div>
+
 		<div class="intro-text">
     </div>
   </div>

@@ -4,7 +4,7 @@
 // $(function() {
 // 	$("#email").on('keyup', function (e) {
 // 	    if (e.keyCode == 13) {
-// 	        myFunction();
+// 		myFunction();
 // 	    }
 // 	});
 // });
@@ -15,7 +15,17 @@ function myFunction() {
 		$("#success").removeClass("hide");
 		$("#fail").addClass("hide");
 		$("#emailSuccess").html(email);
+		$.ajax({
 
+				    url: 'https://script.google.com/macros/s/AKfycbzUHaVqS_7gTUX1jnIARC1XwWy7D1PAQbZnAVRZ-_qH7lrowU_9/exec',
+				    data: {email:$("#email").val()},
+				    type: 'POST',
+				    crossDomain: true,
+				    dataType: 'jsonp',
+				    // success: function() { alert("Success"); },
+				    // error: function() { alert('Failed!'); }
+				    // beforeSend: setHeader
+				});
 		// hide
 		// alert("Successfuly register for the beta version "+email);	
 	}else{
@@ -25,17 +35,7 @@ function myFunction() {
 	}
 	console.log("Hello ",email);
 	
-	$.ajax({
-
-	    url: 'https://script.google.com/macros/s/AKfycbzUHaVqS_7gTUX1jnIARC1XwWy7D1PAQbZnAVRZ-_qH7lrowU_9/exec',
-	    data: {email:$("#email").val()},
-	    type: 'POST',
-	    crossDomain: true,
-	    dataType: 'jsonp',
-	    // success: function() { alert("Success"); },
-	    // error: function() { alert('Failed!'); }
-	    // beforeSend: setHeader
-	});
+	
 
 	/*
     $.post("https://script.google.com/macros/s/AKfycbxY1ptf9mUiiEDbwiPlVkIosgaY0kO5SaQ2v5FtaVym/dev",
@@ -46,12 +46,7 @@ function myFunction() {
     function(data, status){
         alert("Data: " + data + "\nStatus: " + status);
     });
-    */
-    // document.getElementById("demo").innerHTML = "Hello World";
-}
-</script>
-  <div class="container">
-    <div class="intro-text">
+
       <div class="intro-lead-in">{{ with .Site.Params.hero.title }}{{ . | markdownify }}{{ end }}</div>
       <div class="intro-heading">{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</div>
 
@@ -74,6 +69,8 @@ function myFunction() {
 			<div class="alert alert-danger hide" id="fail">
 			  <strong>Error!</strong> Please type your email to subscribe to the beta version
 			</div>
+
+
 			<!-- <br><br> -->
 			<!-- <input type="submit" value="Submit"> -->
 			<!-- "#portfolio"  -->
@@ -82,8 +79,24 @@ function myFunction() {
 		</div>
 	    <div class="col-lg-3"></div>
 	   <!-- </form> /https://script.google.com/macros/s/AKfycbxY1ptf9mUiiEDbwiPlVkIosgaY0kO5SaQ2v5FtaVym/dev?email=jojo" class="page-scroll btn btn-xl -->
+
+InteroPromo
+<div class="container">
+    <div class="intro-text">
     </div>
-
-
   </div>
+    */
+    // document.getElementById("demo").innerHTML = "Hello World";
+}
+</script>
+<div class="container">
+  		<div class="fullscreen-bg">
+			<video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+				<source src="../videos/WebsitePromo.mp4" type="video/mp4">
+			</video>
+		</div>
+		<div class="intro-text">
+    </div>
+  </div>
+  
 </header>

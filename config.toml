@@ -45,7 +45,7 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "Virtual Reality"
+    brand = "Home"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     services = "Accessories"

@@ -9,15 +9,16 @@
 // 	});
 // });
 // var video = document.getElementById('video');
-// video.addEventListener('click',function(){
-//   video.play();
-// },false);
+
 
 window.onload = function(){
 	console.log("meow ");
 	video = $("#video")[0];
 	console.log(video);
 	video.play();
+	video.addEventListener('click',function(){
+  		video.play();
+	},false);
 }
 
 function myFunction() {
@@ -110,7 +111,7 @@ InteroPromo
       <!-- <div class="intro-heading">{{ with .Site.Params.hero.subtitle4 }}{{ . | markdownify }}{{ end }}</div> -->
   		</div>
   		<div class="fullscreen-bg">
-			<video id="video" playsinline autobuffer loop muted  poster="/videos/ImagePromo.jpg" width="1280" height="720" class="fullscreen-bg__video">
+			<video id="video" playsinline autobuffer loop muted autoplay poster="/videos/ImagePromo.jpg" width="1280" height="720" class="fullscreen-bg__video">
 				<source src="/videos/WebPromo.mp4" type="video/mp4">
 				<source src="/videos/WebPromo.ogv" type="video/ogg">
 				<source src="/videos/WebPromo.webm" type="video/webm">

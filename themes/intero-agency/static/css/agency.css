@@ -380,15 +380,20 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 110px;
+
+        padding-top: 100px;
+        /*padding-top: 510px;*/
         padding-bottom: 00px;
     }
 
     header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
+        /*margin-bottom: 25px;*/
         font-family: 'razedbold';
         font-size: 90px;
-        line-height: 40px;
+        /*background: rgba(50,50,50,.5);*/
+        /*background: rgba(50,50,50,.1);*/
+        /*line-height: 40px;*/
+        line-height: 90px;
     }
 
     header .intro-text .intro-heading {
@@ -396,6 +401,7 @@ header .intro-text .intro-heading {
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 35px;
+        background: rgba(0,0,0,.2);
         font-weight: 700;
         line-height: 75px;
     }

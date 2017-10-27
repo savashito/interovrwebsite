@@ -189,7 +189,22 @@ googleAnalytics = ""
         ["fa-facebook", "https://www.facebook.com/Becca.Rogers1"],
         ["fa-linkedin", "https://www.linkedin.com/in/rebecca-rogers-950051117/"]
       ]
-
+    [[params.team.members]]
+      img = "tam.jpg"
+      name = "Tamara Estrella"
+      position = "Marketing"
+      livesIn = "[Mexico City, Mexico](#some-maps-url)"
+      scope = [
+        "Social Media Expert",
+        "<br>",
+        "<br>"
+      ]
+      bio = """Tamara is awesome. She has tons of experince in social media market research and is passionate about change.<br>"""
+      social = [
+        ["fa-instagram", "https://www.instagram.com/estradapavel/?hl=en"],
+        ["fa-facebook", "https://www.facebook.com/pavel.estradalanda"],
+        ["fa-linkedin", "https://www.linkedin.com/in/pavel-estrada-74a42a7b/?ppe=1"]
+      ]
     [[params.team.members]]
       img = "3.jpg"
       name = "Pavel Estrada"
@@ -208,15 +223,21 @@ googleAnalytics = ""
         ["fa-linkedin", "https://www.linkedin.com/in/pavel-estrada-74a42a7b/?ppe=1"]
       ]
     [[params.team.members]]
-      img = "5.jpg"
-      name = "Omar Karim"
-      position = "Developer"
+      img = "sam.jpg"
+      name = "Samantha Morales"
+      position = "Industrial Designer"
       livesIn = "[Mexico City, Mexico](#some-maps-url)"
       scope = [
-        "App development",
+        "Headset Design & Modeling",
+        "<br>",
+        "<br>"
       ]
-      # For bio markdown and even multiline strings are available.
-      bio = """Omar is pursuing his Masters in Science and Computer Engineering at UNAM."""
+      bio = """Samantha is awesome.<br>"""
+      social = [
+        ["fa-instagram", "https://www.instagram.com/estradapavel/?hl=en"],
+        ["fa-facebook", "https://www.facebook.com/pavel.estradalanda"],
+        ["fa-linkedin", "https://www.linkedin.com/in/pavel-estrada-74a42a7b/?ppe=1"]
+      ]
 
     [[params.team.members]]
       img = "6.jpg"
@@ -225,9 +246,15 @@ googleAnalytics = ""
       livesIn = "[Mexico City, Mexico](#some-maps-url)"
       scope = [
         "Avatar design/modeling",
+        "<br>",
+        "<br>"
       ]
       bio = """Brenda is a CG artist and a director of Computing and Information/Communication Technologies in Mexico."""      
-
+      social = [
+        ["fa-instagram", "https://www.instagram.com/estradapavel/?hl=en"],
+        ["fa-facebook", "https://www.facebook.com/pavel.estradalanda"],
+        ["fa-linkedin", "https://www.linkedin.com/in/pavel-estrada-74a42a7b/?ppe=1"]
+      ]
 
     [[params.team.members]]
       img = "4.jpg"
@@ -236,9 +263,15 @@ googleAnalytics = ""
       livesIn = "[Mexico City, Mexico](#some-maps-url)"
       scope = [
         "Avatar model",
+        "<br>",
+        "<br>"
       ]
       bio = """Alan is a professional rower and Pan-American Champion."""       
-
+      social = [
+        ["fa-instagram", "https://www.instagram.com/estradapavel/?hl=en"],
+        ["fa-facebook", "https://www.facebook.com/pavel.estradalanda"],
+        ["fa-linkedin", "https://www.linkedin.com/in/pavel-estrada-74a42a7b/?ppe=1"]
+      ]
 
 # Portfolio section
   [params.portfolio]

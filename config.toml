@@ -195,9 +195,9 @@ googleAnalytics = ""
       position = "Marketing"
       livesIn = "[Tucson, USA](#some-maps-url)"
       scope = [
-        "Social Media Expert",
-        "<br>",
-        "<br>"
+        "Marketing & Global Business.",
+        "International Marketing.",
+        "Social Media Expert."
       ]
       bio = """Tamara is awesome. She has tons of experince in social media market research and is passionate about change.<br>"""
       social = [
@@ -232,7 +232,7 @@ googleAnalytics = ""
         "Headset Design & Modeling.",
         "<br>"
       ]
-      bio = """Samantha is an Extreme sports lover<br>"""
+      bio = """Samantha is an Extreme sports lover.<br>"""
       social = [
         ["fa-instagram", "https://www.instagram.com/estradapavel/?hl=en"],
         ["fa-facebook", "https://www.facebook.com/pavel.estradalanda"],

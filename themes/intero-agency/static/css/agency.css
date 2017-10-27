@@ -10,7 +10,8 @@ body {
 }
 
 .text-muted {
-    color: #777;
+    color: #000;
+    /*color: #777;*/
 }
 
 .text-primary {
@@ -826,17 +827,18 @@ section#contact .form-group input,
 section#contact .form-group textarea {
     padding: 20px;
 }
-/*
+
 section#contact .form-group input.form-control {
     height: auto;
-    width: 250px;
+    width: 100%;
 }
-*/
-input.form-control {
+
+/*input.form-control {
     height: auto;
+
     width: 250px;
     display: inline;
-}
+}*/
 
 section#contact .form-group textarea.form-control {
     height: 236px;

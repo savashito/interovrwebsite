@@ -10,26 +10,53 @@
         {{ end }}
 
         {{ with .Site.Params.contact.subtitle }}
-        <h3 class="section-subheading text-muted">{{ . | markdownify }}</h3>
+        <h4 class="section-heading ">{{ . | markdownify }}</h3>
         {{ end }}
 
       </div>
     </div>
+    <br>
     <div class="row">
       <div class="col-lg-12">
-        {{ if not .Site.Params.contact.postURL }}
-        <form  action="//formspree.io/{{ with (or .Site.Params.contact.email .Site.Params.email)}}{{.}}{{ end }}" method="POST" name="sentMessage" id="contactForm">
-        {{ else }}
-        <form  action="{{ .Site.Params.contact.postURL }}" method="POST" name="sentMessage" id="contactForm">
-        {{ end }}
+        <form method="POST" action="http://formspree.io/contact@interovr.com">
+           <div class="row">
+              <div class="col-md-12 form-group">
+              <!-- <div class="form-group"> -->
+                <input class="form-control" type="email" name="email" placeholder="Your email">
+<!--               </div>
+              <div class="col-md-6 form-group"> -->
+              <br>
+                <textarea class="form-control" name="message" placeholder="Your message"></textarea>
+                <br />
+                <button class="form-control" type="submit">Send</button>
+              </div>
+            </div>
+        </form>
+      </div>
+    </div>
+  </div>
 
-          <fieldset>
+<canvas style="">
+     
+<div>
+<script type="text/javascript" src="http://feedjit.com/serve/?vv=1515&amp;tft=3&amp;dd=0&amp;wid=&amp;pid=0&amp;proid=0&amp;bc=FFFFFF&amp;tc=000000&amp;brd1=012B6B&amp;lnk=135D9E&amp;hc=FFFFFF&amp;hfc=2853A8&amp;btn=C99700&amp;ww=200&amp;went=10"></script><noscript><a href="http://feedjit.com/">Live Traffic Stats</a></noscript>
+
+<p style="font-family: verdana;font-size: 12px;color: #333333;text-decoration: none;" ><a alt="Map IP Address" href="http://www.ip2map.com"><img border="0" alt="Map IP Address" src="http://www.ip2map.com/ip2map.gif"></a><br>Powered by<a alt="IP Address" href="http://www.ip2location.com" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 12px;color: #0066CC;text-decoration: underline;">IP2Location.com</a></p>
+
+</div>
+</canvas>
+  
+</section>
+
+
+
+   <!--        <fieldset>
             <div class="row">
               <div class="col-md-6">
 
                 {{ with .Site.Params.contact.form.name }}
                 <div class="form-group">
-                  <input class="form-control" id="name" required="required" type="text" name="name" placeholder="{{ with .text }}{{ .  | markdownify }}{{ end }}" data-validation-error-msg="{{ with .warning }}{{ . | markdownify }}{{ end }}">
+                  <input class="form-control" id="name" type="text" name="name" placeholder="{{ with .text }}{{ .  | markdownify }}{{ end }}" data-validation-error-msg="{{ with .warning }}{{ . | markdownify }}{{ end }}">
                   <p class="help-block text-danger"></p>
                 </div>
                 {{ end }}
@@ -43,7 +70,7 @@
 
                 {{ with .Site.Params.contact.form.phone }}
                 <div class="form-group">
-                  <input class="form-control" id="phone" required="required" type="number" name="phone" placeholder="{{ with .text }}{{ . | markdownify }}{{ end }}" data-validation-error-msg="{{ with .warning }}{{ . | markdownify }}{{ end }}"></textarea>
+                  <input class="form-control" id="phone" type="number" name="phone" placeholder="{{ with .text }}{{ . | markdownify }}{{ end }}" data-validation-error-msg="{{ with .warning }}{{ . | markdownify }}{{ end }}"></textarea>
                   <p class="help-block text-danger"></p>
                 </div>
                 {{ end }}
@@ -52,7 +79,7 @@
               <div class="col-md-6">
               {{ with .Site.Params.contact.form.message }}
                 <div class="form-group">
-                  <textarea class="form-control" id="message" required="required" name="message" placeholder="{{ with .text }}{{ . | markdownify }}{{ end }}" data-validation-error-msg="{{ with .warning }}{{ . | markdownify }}{{ end }}"></textarea>
+                  <textarea class="form-control" id="message"  name="message" placeholder="{{ with .text }}{{ . | markdownify }}{{ end }}" data-validation-error-msg="{{ with .warning }}{{ . | markdownify }}{{ end }}"></textarea>
                   <p class="help-block text-danger"></p>
                 </div>
                 {{ end }}
@@ -86,20 +113,4 @@
                 <input type="hidden" name="{{ .name }}" value="{{ .value }}"/>
               {{ end }}
             {{ end }}
-          </fieldset>
-        </form>
-      </div>
-    </div>
-  </div>
-
-<canvas style="">
-     
-<div>
-<script type="text/javascript" src="http://feedjit.com/serve/?vv=1515&amp;tft=3&amp;dd=0&amp;wid=&amp;pid=0&amp;proid=0&amp;bc=FFFFFF&amp;tc=000000&amp;brd1=012B6B&amp;lnk=135D9E&amp;hc=FFFFFF&amp;hfc=2853A8&amp;btn=C99700&amp;ww=200&amp;went=10"></script><noscript><a href="http://feedjit.com/">Live Traffic Stats</a></noscript>
-
-<p style="font-family: verdana;font-size: 12px;color: #333333;text-decoration: none;" ><a alt="Map IP Address" href="http://www.ip2map.com"><img border="0" alt="Map IP Address" src="http://www.ip2map.com/ip2map.gif"></a><br>Powered by<a alt="IP Address" href="http://www.ip2location.com" style="font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 12px;color: #0066CC;text-decoration: underline;">IP2Location.com</a></p>
-
-</div>
-</canvas>
-  
-</section>
+          </fieldset> -->

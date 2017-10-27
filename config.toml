@@ -158,7 +158,7 @@ googleAnalytics = ""
       img = "1.jpg"
       name = "Rodrigo Savage"
       position = "Lead Developer"
-      livesIn = "[Mexico City, Mexico](#some-maps-url)"
+      livesIn = "[Tucson, USA](#some-maps-url)"
       scope = [
         "Headset & App development",
         "Communications & Marketing",
@@ -176,7 +176,7 @@ googleAnalytics = ""
       img = "2.jpg"
       name = "Becca Rogers"
       position = "Lead Designer"
-      livesIn = "[Tucson, Arizona](#some-maps-url)"
+      livesIn = "[Tucson, USA](#some-maps-url)"
       scope = [
         "Headset & App Design",
         "General Management",
@@ -193,7 +193,7 @@ googleAnalytics = ""
       img = "tam.jpg"
       name = "Tamara Estrella"
       position = "Marketing"
-      livesIn = "[Mexico City, Mexico](#some-maps-url)"
+      livesIn = "[Tucson, USA](#some-maps-url)"
       scope = [
         "Social Media Expert",
         "<br>",
@@ -211,9 +211,9 @@ googleAnalytics = ""
       position = "Mentor"
       livesIn = "[Mexico City, Mexico](#some-maps-url)"
       scope = [
-        "Rowing Coach Expert",
-        "Case Study Designer",
-        "Sub-director of Athletic Sports in Mexico"
+        "Rowing Coach Expert.",
+        "Case Study Designer.",
+        "Sub-director of Athletic Sports in Mexico."
       ]
       # For bio markdown and even multiline strings are available.
       bio = """Pavel knows everything about athletics in Mexico. He's helping us make amazing connections and providing coaching expertise."""
@@ -228,11 +228,11 @@ googleAnalytics = ""
       position = "Industrial Designer"
       livesIn = "[Mexico City, Mexico](#some-maps-url)"
       scope = [
-        "Headset Design & Modeling",
-        "<br>",
+        "Esthetics and Ergonomic Design Expert.",
+        "Headset Design & Modeling.",
         "<br>"
       ]
-      bio = """Samantha is awesome.<br>"""
+      bio = """Samantha is an Extreme sports lover<br>"""
       social = [
         ["fa-instagram", "https://www.instagram.com/estradapavel/?hl=en"],
         ["fa-facebook", "https://www.facebook.com/pavel.estradalanda"],
@@ -245,7 +245,7 @@ googleAnalytics = ""
       position = "Design & Animation"
       livesIn = "[Mexico City, Mexico](#some-maps-url)"
       scope = [
-        "Avatar design/modeling",
+        "Avatar Design/Modeling.",
         "<br>",
         "<br>"
       ]
@@ -294,9 +294,9 @@ googleAnalytics = ""
   [params.contact]
     enable = true
     title = "Contact us"
-    subtitle  = "We'll get back to you as soon as possible!"
+    subtitle  = "contact@interovr.com"
     buttonText = "Send message"
-
+    # We'll get back to you in the next 24 hours!
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
     # email. Visitors can send up to a 1000 emails each month for free.
@@ -318,12 +318,12 @@ googleAnalytics = ""
     email = "contact@interovr.com"
 
     # Success and error message overwrite for async contact form
-    #thanks = "Thank you for awesomely contacting us."
-    #error = "Message could not be send. Please contact us at mail@example.com instead."
+    thanks = "Thank you for awesomely contacting us."
+    error = "Message could not be send. Please contact us at contact@interovr.com instead."
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
-      text = "Your Name *"
+      text = "Your Name"
       warning = "Please enter your name."
 
     [params.contact.form.email]
@@ -331,11 +331,11 @@ googleAnalytics = ""
       warning = "Please enter your email address."
 
     [params.contact.form.phone]
-      text = "Your Phone *"
+      text = "Your Phone"
       warning = "Please enter your phone number."
 
     [params.contact.form.message]
-      text = "Your Message *"
+      text = "Your Message"
       warning = "Please enter a message."
 
       # Add optional form fields to identify contact forms

@@ -17,8 +17,10 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "Your name"
-  description = "Your description"
+  name = "Intero"
+  description = "We convert the boring, and stressful erg training routing into a real world interactive competitive training experience. Rowers train with their team mates anywhere in the world.
+Athletes compite against their rivals.
+Athletes compite against their previous times."
 
   # Link custom assets relative to /static
   custom_css = []

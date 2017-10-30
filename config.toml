@@ -77,7 +77,8 @@ googleAnalytics = ""
     # the 'static/img' folder.
     title = "IInteRo"
     subtitle = "Enhancing Athletic Performance"
-    subtitle2 = "We convert the boring, stressful erg routing into a real world competitive training experience."
+    subtitle2 = "Row anywhere with anyone."
+    #"We convert the boring, stressful erg routing into a real world competitive training experience."
     buttonText = "Subscribe to VR rowing\nbeta"
 
 

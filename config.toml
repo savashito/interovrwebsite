@@ -159,7 +159,7 @@ googleAnalytics = ""
       img = "rod.png"
       name = "Rodrigo Savage"
       position = "Lead Developer"
-      livesIn = "[Tucson, USA](#some-maps-url)"
+      livesIn = "[Mexico City, Mexico](#some-maps-url)"
       scope = [
         "Headset & App development",
         "Communications & Marketing",
@@ -210,7 +210,20 @@ googleAnalytics = ""
         ["fa-facebook", "https://www.behance.net/aquarium13da72"],
         ["fa-linkedin", "https://www.linkedin.com/in/florhernandez13/"]
       ]
-
+    [[params.team.members]]
+      img = "rob.jpg"
+      name = "Roberto Fuchs"
+      position = "VR senior developer"
+      livesIn = "[Mexico City, Mexico](#some-maps-url)"
+      scope = [
+        "VR & AR Expert.",
+        "Co-Founder of WASD studio"
+      ]
+      # For bio markdown and even multiline strings are available.
+      bio = """Roberto is comparable to a god when it comes to VR and AR with Unity, he is an entrepreneur and eager to work on projects with positive impact."""
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/roberto-ricardo-fuchs-vargas-427b8016/"]
+      ]
     [[params.team.members]]
       img = "tam.jpg"
       name = "Tamara Estrella"

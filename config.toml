@@ -217,10 +217,11 @@ googleAnalytics = ""
       livesIn = "[Mexico City, Mexico](#some-maps-url)"
       scope = [
         "VR & AR Expert.",
+        "Unity Certified Developer",
         "Co-Founder of WASD studio"
       ]
       # For bio markdown and even multiline strings are available.
-      bio = """Roberto is comparable to a god when it comes to VR and AR with Unity, he is an entrepreneur and eager to work on projects with positive impact."""
+      bio = """Roberto has a bast knowledge and practical experience in VR and AR with Unity, he is an entrepreneur and eager to work on projects with positive impact."""
       social = [
         ["fa-linkedin", "https://www.linkedin.com/in/roberto-ricardo-fuchs-vargas-427b8016/"]
       ]

@@ -166,7 +166,7 @@ googleAnalytics = ""
         "Case Study Designer"
       ]
       # For bio markdown and even multiline strings are available.
-      bio = """Rodrigo is working on his PhD in computer engineering. He can develop anything he sets his mind to."""
+      bio = """Rodrigo is a PhD candidate in computer engineering. He can develop anything he sets his mind to."""
       social = [
         ["fa-instagram", "https://www.instagram.com/rodrigosavage"],
         ["fa-facebook", "https://www.facebook.com/savashito"],
@@ -217,8 +217,8 @@ googleAnalytics = ""
       livesIn = "[Mexico City, Mexico](#some-maps-url)"
       scope = [
         "VR & AR Expert.",
-        "Unity Certified Developer",
-        "Co-Founder of WASD studio"
+        "Unity Certified Developer.",
+        "Co-Founder of WASD studio."
       ]
       # For bio markdown and even multiline strings are available.
       bio = """Roberto has a bast knowledge and practical experience in VR and AR with Unity, he is an entrepreneur and eager to work on projects with positive impact."""

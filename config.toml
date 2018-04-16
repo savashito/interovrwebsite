@@ -195,7 +195,7 @@ googleAnalytics = ""
       [[params.team.members]]
       img = "flor.png"
       name = "Flor Hernández"
-      position = "Lead "
+      position = "Lead UX researcher"
       livesIn = "[Rio de Janeiro, Brazil](#some-maps-url)"
       scope = [
         "Human Computer Intereaction",

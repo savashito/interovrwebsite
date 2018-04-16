@@ -32,6 +32,8 @@ src="https://www.youtube.com/embed/MclLT1f1PzM?loop=1&autoplay=1&controls=0">
 <br>
 **Specifications:**
 <br>
+&nbsp;• Supports Conecept2
+<br>
 &nbsp;• Real rowing physics
 <br>
 &nbsp;• Connect with friends and opponents online

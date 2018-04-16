@@ -156,7 +156,7 @@ googleAnalytics = ""
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "1.jpg"
+      img = "rod.png"
       name = "Rodrigo Savage"
       position = "Lead Developer"
       livesIn = "[Tucson, USA](#some-maps-url)"
@@ -190,6 +190,27 @@ googleAnalytics = ""
         ["fa-facebook", "https://www.facebook.com/Becca.Rogers1"],
         ["fa-linkedin", "https://www.linkedin.com/in/rebecca-rogers-950051117/"]
       ]
+
+
+      [[params.team.members]]
+      img = "flor.png"
+      name = "Flor Hernández"
+      position = "Lead "
+      livesIn = "[Rio de Janeiro, Brazil](#some-maps-url)"
+      scope = [
+        "Human Computer Intereaction",
+        "Design Metodology",
+        "User Experience"
+      ]
+      # Background on UX, UI, HCI, design methodology, history and theory.
+
+      bio = """Flor is passionate about user research, their intereactions, experiences and emotions."""
+      social = [
+        ["fa-instagram", "https://www.behance.net/FHJMX"],
+        ["fa-facebook", "https://www.behance.net/aquarium13da72"],
+        ["fa-linkedin", "https://www.linkedin.com/in/florhernandez13/"]
+      ]
+
     [[params.team.members]]
       img = "tam.jpg"
       name = "Tamara Estrella"
